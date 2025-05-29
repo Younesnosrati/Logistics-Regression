@@ -1,5 +1,5 @@
 # Logistics-Regression
-Healthy_meal_plans
+Healthy_meal_plans.csv
 
 ## ML Workflow
 ```mermaid
