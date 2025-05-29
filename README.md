@@ -1,13 +1,12 @@
 # Logistics-Regression
 Healthy_meal_plans
 
-#### Header**  
-```python
-# MACHINE LEARNING PIPELINE:
-# 1. Encoding: LabelEncoder() 
-# 2. Balancing: SMOTE()
-# 3. Modeling: Pipeline(steps=[...])
-# 4. Tuning: GridSearchCV(pipe, param_grid)
-# 5. Evaluation: 
+graph TD
+    A[Raw Data] --> B[Label Encoding]
+    B --> C[SMOTE Balancing]
+    C --> D[GridSearchCV Tuning]
+    D --> E[Pipeline]
+    E --> F[Classification Report]
+    F --> G[Confusion Matrix]: 
 #    - classification_report()
 #    - confusion_matrix()
